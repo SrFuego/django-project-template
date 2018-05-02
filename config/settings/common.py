@@ -145,9 +145,5 @@ PIPELINE = {
 
 # Graphene configuration
 GRAPHENE = {
-<<<<<<< HEAD
     "SCHEMA": "apps.core.schema.schema"
-=======
-    "SCHEMA": "apps.core.schema"
->>>>>>> ADD graphene-django package
 }
