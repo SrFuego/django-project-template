@@ -145,5 +145,5 @@ PIPELINE = {
 
 # Graphene configuration
 GRAPHENE = {
-    "SCHEMA": "apps.core.schema"
+    "SCHEMA": "apps.core.schema.schema"
 }
