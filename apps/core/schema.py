@@ -16,6 +16,7 @@
 # Create your schemas here.
 # class Query(ModelQuery, ModelQuery2, graphene.ObjectType):
 #     pass
+#     debug = graphene.Field(DjangoDebug, name='__debug')
 #
 #
 # schema = graphene.Schema(query=Query)
