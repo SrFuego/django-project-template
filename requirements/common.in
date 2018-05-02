@@ -4,6 +4,7 @@ django-material
 django-model-utils
 django-pipeline
 django-stdimage
+graphene-django
 pip-tools
 psycopg2
 psycopg2-binary
