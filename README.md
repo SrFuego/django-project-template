@@ -3,7 +3,6 @@
 ## Setup Project:
 
 - Configure the `.env` file with your project variables
-- Untrack `.env` file `git update-index --assume-unchanged .env`
 
 ## Dependencies:
 
