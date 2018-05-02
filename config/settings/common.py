@@ -58,7 +58,7 @@ MIDDLEWARE = [
     "pipeline.middleware.MinifyHTMLMiddleware",
 ]
 
-ROOT_URLCONF = "config.urls"
+ROOT_URLCONF = os.environ.get("ROOT_URLCONF_MODULE", "config.urls.dev")
 
 TEMPLATES = [
     {

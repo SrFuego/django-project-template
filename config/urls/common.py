@@ -14,21 +14,15 @@ Including another URLconf
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
 
-from django.conf import settings
 from django.conf.urls import include, url
-from django.conf.urls.static import static
 from django.contrib import admin
-
 
 from apps.core.routers import router
 
-
 from rest_framework.documentation import include_docs_urls
-
 
 API_TITLE = "{{ project_name }}"
 API_DESCRIPTION = "..."
-
 
 urlpatterns = [
     url(r"^admin/", admin.site.urls),
@@ -39,6 +33,4 @@ urlpatterns = [
         r"^docs/",
         include_docs_urls(title=API_TITLE, description=API_DESCRIPTION)),
     url(r"^api/v1/", include(router.urls, namespace="api_v1")),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
-# TODO: production
-# remove + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
