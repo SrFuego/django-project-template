@@ -1,3 +1,4 @@
+# config/settings/develop.py
 import os
 
 from .common import *

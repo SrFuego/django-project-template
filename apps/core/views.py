@@ -1,3 +1,4 @@
+# apps/core/views.py
 # Python imports
 
 

@@ -1,3 +1,4 @@
+# config/settings/common.py
 """
 Django settings for {{ project_name }} project.
 

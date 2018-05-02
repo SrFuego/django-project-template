@@ -1,3 +1,4 @@
+# config/settings/staging.py
 from .common import *
 
 # Quick-start development settings - unsuitable for production

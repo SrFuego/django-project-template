@@ -1,3 +1,4 @@
+# config/settings/production.py
 from .common import *
 
 # Quick-start development settings - unsuitable for production

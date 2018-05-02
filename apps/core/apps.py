@@ -1,3 +1,4 @@
+# apps/core/apps.py
 # Python imports
 
 
