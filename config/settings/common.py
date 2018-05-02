@@ -36,6 +36,7 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     "pipeline",
+    "graphene_django",
 )
 
 LOCAL_APPS = (
@@ -139,4 +140,9 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media/")
 # Pipeline configuration
 PIPELINE = {
     "PIPELINE_ENABLED": True,
+}
+
+# Graphene configuration
+GRAPHENE = {
+    "SCHEMA": "apps.core.schema"
 }
