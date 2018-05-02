@@ -3,6 +3,7 @@
 ## Setup Project:
 
 - Configure the `.env` file with your project variables
+- Set `ENVIRONMENT_MODULE` in `.env` file, alternatives are: `develop`, `staging` and `production`.
 
 ## Dependencies:
 

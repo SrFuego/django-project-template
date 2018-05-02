@@ -16,6 +16,8 @@ from django.core.wsgi import get_wsgi_application
 dotenv.read_dotenv(
     os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))
 
-os.environ.setdefault("DJANGO_SETTINGS_MODULE", "config.settings.dev")
+os.environ.setdefault(
+        "config.settings." + os.environ.get("ENVIRONMENT_MODULE", "develop"),
+        "config.settings.develop")
 
 application = get_wsgi_application()
