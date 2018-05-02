@@ -17,7 +17,7 @@ dotenv.read_dotenv(
     os.path.join(os.path.dirname(os.path.dirname(__file__)), ".env"))
 
 os.environ.setdefault(
-        "config.settings." + os.environ.get("ENVIRONMENT_MODULE", "develop"),
-        "config.settings.develop")
+    "DJANGO_SETTINGS_MODULE",
+    "config.settings." + os.environ.get("ENVIRONMENT_MODULE", "develop"))
 
 application = get_wsgi_application()
