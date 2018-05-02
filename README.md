@@ -1,20 +1,18 @@
-Django project rest template for Django 1.11 with Python 3.6.5
-==============================================================
+# Django project rest template for Django 1.11 with Python 3.6.5
 
-Setup Project:
---------------
+## Setup Project:
 
-    - Configure the .env file with your project variables
+- Configure the `.env` file with your project variables
+- Untrack `.env` file `git update-index --assume-unchanged .env`
 
+## Dependencies:
 
-Dependencies:
--------------
+#### Common.in:
 
+1. psycopg2-binary
+    - Install `postgresql` on your system
 
-    Common.in:
-        1. psycopg2-binary
-            - Install postgresql on your system
+#### Dev.in:
 
-    Dev.in:
-        1. pygraphviz
-            - Install graphviz on your system
+1. pygraphviz
+    - Install `graphviz` on your system
