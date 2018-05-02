@@ -17,8 +17,20 @@ Including another URLconf
 from django.conf.urls import include, url
 from django.contrib import admin
 
+from apps.core.routers import router
+
+from rest_framework.documentation import include_docs_urls
+
+API_TITLE = "{{ project_name }}"
+API_DESCRIPTION = "..."
 
 urlpatterns = [
     url(r"^admin/", admin.site.urls),
-    url(r"^{{ project_name }}", include("apps.core.urls", namespace="core")),
+    url(
+        r"^api-auth/",
+        include("rest_framework.urls", namespace="rest_framework")),
+    url(
+        r"^docs/",
+        include_docs_urls(title=API_TITLE, description=API_DESCRIPTION)),
+    url(r"^api/v1/", include(router.urls, namespace="api_v1")),
 ]
