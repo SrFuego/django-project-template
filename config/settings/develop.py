@@ -17,9 +17,6 @@ THIRD_PARTY_APPS_LOCAL = (
 
 INSTALLED_APPS += THIRD_PARTY_APPS_LOCAL
 
-# Django Rest Framework CORS configuration
-CORS_ORIGIN_ALLOW_ALL = True
-
 # Graph models conf
 GRAPH_MODELS = {
     "all_applications": True,

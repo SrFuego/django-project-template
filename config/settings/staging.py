@@ -11,14 +11,3 @@ DEBUG = False
 # complete allowed hosts
 ALLOWED_HOSTS = ["*"]
 
-# Django Rest Framework CORS configuration
-# TODO: production
-# complete cors origin whitelist
-# delete CORS_ORIGIN_ALLOW_ALL (default=False)
-CORS_ORIGIN_ALLOW_ALL = True
-
-# CORS_ORIGIN_WHITELIST = (
-#     "google.com",
-#     "hostname.example.com",
-#     "localhost:8000",
-#     "127.0.0.1:9000",)

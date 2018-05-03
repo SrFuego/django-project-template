@@ -11,7 +11,3 @@ DEBUG = False
 # complete allowed hosts
 ALLOWED_HOSTS = []
 
-# Django Rest Framework CORS configuration
-# TODO: production
-# complete cors origin whitelist
-CORS_ORIGIN_WHITELIST = ()
