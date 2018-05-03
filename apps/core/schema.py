@@ -5,8 +5,7 @@
 
 
 # Third party apps imports
-import graphene
-from graphene_django.debug import DjangoDebug
+# import graphene
 
 
 # Local imports
@@ -15,7 +14,7 @@ from graphene_django.debug import DjangoDebug
 
 # Create your schemas here.
 # class Query(ModelQuery, ModelQuery2, graphene.ObjectType):
-#     debug = graphene.Field(DjangoDebug, name='__debug')
+#     pass
 #
 #
 # schema = graphene.Schema(query=Query)
