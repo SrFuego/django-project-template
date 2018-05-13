@@ -32,3 +32,4 @@ static/
 #================================#
 .idea/
 .ropeproject/
+.vscode/
