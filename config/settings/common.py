@@ -37,12 +37,9 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     "pipeline",
-<<<<<<< HEAD
     "rest_framework",
     "corsheaders",
-=======
     "django_filters",
->>>>>>> ADD django-filter
 )
 
 LOCAL_APPS = (
