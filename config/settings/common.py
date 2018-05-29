@@ -37,6 +37,7 @@ DJANGO_APPS = (
 
 THIRD_PARTY_APPS = (
     "pipeline",
+    "django_filters",
 )
 
 LOCAL_APPS = (
