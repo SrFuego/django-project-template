@@ -38,6 +38,7 @@ DJANGO_APPS = (
 THIRD_PARTY_APPS = (
     "pipeline",
     "rest_framework",
+    "django_filters",
     "corsheaders",
 )
 
