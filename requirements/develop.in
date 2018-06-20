@@ -5,6 +5,7 @@ django-extensions
 flake8
 ipython
 model_mommy
+graphviz
 pipdeptree
 pydotplus
 pygraphviz
