@@ -1,11 +1,13 @@
 -r common.in
 
+autopep8
 coverage
 django-extensions
+django-speedinfo
 flake8
+graphviz
 ipython
 model_mommy
-graphviz
 pipdeptree
 pydotplus
 pygraphviz
